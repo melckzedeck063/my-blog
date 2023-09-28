@@ -64,8 +64,8 @@ export function StickyNavbar() {
   );
  
   return (
-    <div className="-mm-6 max-h-[768px] w-[calc(100%+48px)] overflow-scroll  bg-slate-800">
-      <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4 bg-slate-800">
+    <div className="-mm-6 max-h-[768px] w-[calc(100%+48px)] overflow-scroll  bg-gradient-to-r from-slate-800 viaa-cyan-500 to-sky-700">
+      <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4 bg-gradient-to-r from-slate-800 viaa-cyan-500 to-sky-700">
         <div className="flex items-center justify-between text-slate-200" >
           <Typography
             as="a"
