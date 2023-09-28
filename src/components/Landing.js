@@ -1,6 +1,8 @@
 import React from 'react'
 import { StickyNavbar } from './NavBar'
 
+import cotton from '../images/cotton.jpeg';
+
 export default function Landing() {
   return (
     <div>
@@ -30,8 +32,8 @@ export default function Landing() {
             data-te-ripple-init data-te-ripple-color="light" href="#!" role="button">Contact</a>
         </div>
         <div class="mb-12 lg:mb-0">
-          <img src="https://tecdn.b-cdn.net/img/new/ecommerce/horizontal/048.jpg"
-            class="w-full rounded-lg shadow-lg dark:shadow-black/20" alt="" />
+          <img src={cotton}
+            class="w-auto h-70 rounded-lg shadow-lg dark:shadow-black/20" alt="" />
         </div>
       </div>
     </div>

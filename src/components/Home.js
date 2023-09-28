@@ -2,6 +2,7 @@ import React from 'react'
 import { StickyNavbar } from './NavBar'
 import Landing from './Landing'
 import Testimonials from './Testimonials'
+import Footer from './Footer'
 
 
 export default function Home() {
@@ -12,6 +13,9 @@ export default function Home() {
     </div>
     <div>
         <Testimonials />
+    </div>
+    <div className="">
+        <Footer />
     </div>
   </div>
   )
