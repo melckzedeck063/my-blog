@@ -10,252 +10,120 @@ export default function Testimonials() {
   <section class="mbb-32 text-center">
     <h2 class="mb-12 text-3xl font-bold text-[hsl(174,97%,74%)]">Testimonials</h2>
 
-    <div class="grid gap-x-6 md:grid-cols-4 xl:gap-x-12">
+    <div class="grid gap-x-6 gap-y-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-12">
 
-    <div class="mb-6 lg:mb-0">
+    <div>
+      <div
+        class="block rounded-lg bg-white shadow-lg bg-gradient-to-r from-teal-700 to-sky-600 text-white hover:bg-gradient-to-r hover:from-slate-800 hover:to-sky-600">
+        <div class="h-24 overflow-hidden rounded-t-lg bg-[#4e5aca]"></div>
         <div
-          class="relative block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] bg-gradient-to-r from-teal-700 to-sky-600 text-white hover:bg-gradient-to-r hover:from-slate-800 hover:to-sky-600">
-          <div class="flex">
-            <div
-              class="relative mx-4 -mt-4 w-full overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
-              data-te-ripple-init data-te-ripple-color="light">
-              <img src="https://mdbcdn.b-cdn.net/img/new/avatars/8.jpg" class="w-full" />
-              <a href="#!">
-                <div
-                  class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="mb-2 text-lg font-bold">Gemin Child</h5>
-            <h6 class="mb-4 font-medium text-primary dark:text-primary-400">
-              Software Developer
-            </h6>
-            <ul class="mb-6 flex justify-center">
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                  <path fill="currentColor"
-                    d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                  <path fill="currentColor"
-                    d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                  <path fill="currentColor"
-                    d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                  <path fill="currentColor"
-                    d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                  <path fill="currentColor"
-                    d="m480 757 157 95-42-178 138-120-182-16-71-168v387ZM233 976l65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                </svg>
-              </li>
-            </ul>
-            <p>
-              Ut pretium ultricies dignissim. Sed sit amet mi eget urna
-              placerat vulputate. Ut vulputate est non quam dignissim
-              elementum. Donec a ullamcorper diam.
-            </p>
-          </div>
+          class="mx-auto -mt-12 w-32 h-32 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
+          <img
+            src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp" />
+        </div>
+        <div class="p-6">
+          <h4 class="mb-4 text-2xl font-semibold">Gemin Child</h4>
+          <hr />
+          <p class="mt-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="inline-block h-7 w-7 pr-2"
+              viewBox="0 0 24 24">
+              <path
+                d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z" />
+            </svg>
+            Neque cupiditate assumenda in maiores repudi mollitia
+            architecto.
+          </p>
         </div>
       </div>
+    </div>
 
-      <div class="mb-6 lg:mb-0">
+      <div>
+      <div
+        class="block rounded-lg bg-white shadow-lg bg-gradient-to-r from-teal-700 to-sky-600 text-white hover:bg-gradient-to-r hover:from-slate-800 hover:to-sky-600">
+        <div class="h-24 overflow-hidden rounded-t-lg bg-[#40476d]"></div>
         <div
-          class="relative block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] bg-gradient-to-r from-teal-700 to-sky-600 text-white hover:bg-gradient-to-r hover:from-slate-800 hover:to-sky-600">
-          <div class="flex">
-            <div
-              class="relative mx-4 -mt-4 w-full overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
-              data-te-ripple-init data-te-ripple-color="light">
-              <img src={image3} class="w-full h-68" />
-              <a href="#!">
-                <div
-                  class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="mb-2 text-lg font-bold">Msham Said</h5>
-            <h6 class="mb-4 font-medium text-primary dark:text-primary-400">
-              Content Creator
-            </h6>
-            <ul class="mb-6 flex justify-center">
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                  <path fill="currentColor"
-                    d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                  <path fill="currentColor"
-                    d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                  <path fill="currentColor"
-                    d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                  <path fill="currentColor"
-                    d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                  <path fill="currentColor"
-                    d="m480 757 157 95-42-178 138-120-182-16-71-168v387ZM233 976l65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                </svg>
-              </li>
-            </ul>
-            <p>
-              Ut pretium ultricies dignissim. Sed sit amet mi eget urna
-              placerat vulputate. Ut vulputate est non quam dignissim
-              elementum. Donec a ullamcorper diam.
-            </p>
-          </div>
+          class="mx-auto -mt-12 w-32 h-32 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
+          <img
+            src={image3} />
+        </div>
+        <div class="p-6">
+          <h4 class="mb-4 text-2xl font-semibold">Msham Said</h4>
+          <hr />
+          <p class="mt-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="inline-block h-7 w-7 pr-2"
+              viewBox="0 0 24 24">
+              <path
+                d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z" />
+            </svg>
+            Neque cupiditate assumenda in maiores repudi mollitia
+            architecto.
+          </p>
         </div>
       </div>
+    </div>
 
-      <div class="mb-6 lg:mb-0">
+      <div>
+      <div
+        class="block rounded-lg bg-white shadow-lg bg-gradient-to-r from-teal-700 to-sky-600 text-white hover:bg-gradient-to-r hover:from-slate-800 hover:to-sky-600">
+        <div class="h-24 overflow-hidden rounded-t-lg bg-[#c4caed]"></div>
         <div
-          class="relative block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] bg-gradient-to-r from-teal-700 to-sky-600 text-white hover:bg-gradient-to-r hover:from-slate-800 hover:to-sky-600">
-          <div class="flex">
-            <div
-              class="relative mx-4 -mt-4 w-full overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
-              data-te-ripple-init data-te-ripple-color="light">
-              <img src={image1} class="w-full h-68" />
-              <a href="#!">
-                <div
-                  class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="mb-2 text-lg font-bold">Whitney Njau</h5>
-            <h6 class="mb-4 font-medium text-primary dark:text-primary-400">
-              Content Designer
-            </h6>
-            <ul class="mb-6 flex justify-center">
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                  <path fill="currentColor"
-                    d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                  <path fill="currentColor"
-                    d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                  <path fill="currentColor"
-                    d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                  <path fill="currentColor"
-                    d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                  <path fill="currentColor"
-                    d="m480 757 157 95-42-178 138-120-182-16-71-168v387ZM233 976l65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                </svg>
-              </li>
-            </ul>
-            <p>
-              Ut pretium ultricies dignissim. Sed sit amet mi eget urna
-              placerat vulputate. Ut vulputate est non quam dignissim
-              elementum. Donec a ullamcorper diam.
-            </p>
-          </div>
+          class="mx-auto -mt-12 w-32 h-32 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
+          <img
+            src={image1} />
+        </div>
+        <div class="p-6">
+          <h4 class="mb-4 text-2xl font-semibold">Whitney Menard</h4>
+          <hr />
+          <p class="mt-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="inline-block h-7 w-7 pr-2"
+              viewBox="0 0 24 24">
+              <path
+                d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z" />
+            </svg>
+            Neque cupiditate assumenda in maiores repudi mollitia
+            architecto.
+          </p>
         </div>
       </div>
+    </div>
 
-      <div class="mb-6 lg:mb-0">
-        <div
-          class="relative block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] bg-gradient-to-r from-teal-700 to-sky-600 text-white hover:bg-gradient-to-r hover:from-slate-800 hover:to-sky-600">
-          <div class="flex">
-            <div
-              class="relative mx-4 -mt-4 w-full overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
-              data-te-ripple-init data-te-ripple-color="light">
-              <img src="https://mdbcdn.b-cdn.net/img/new/avatars/8.jpg" class="w-full" />
-              <a href="#!">
-                <div
-                  class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="mb-2 text-lg font-bold">John Doe</h5>
-            <h6 class="mb-4 font-medium text-primary dark:text-primary-400">
-              Web Developer
-            </h6>
-            <ul class="mb-6 flex justify-center">
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                  <path fill="currentColor"
-                    d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                  <path fill="currentColor"
-                    d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                  <path fill="currentColor"
-                    d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                  <path fill="currentColor"
-                    d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                  <path fill="currentColor"
-                    d="m480 757 157 95-42-178 138-120-182-16-71-168v387ZM233 976l65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                </svg>
-              </li>
-            </ul>
-            <p>
-              Ut pretium ultricies dignissim. Sed sit amet mi eget urna
-              placerat vulputate. Ut vulputate est non quam dignissim
-              elementum. Donec a ullamcorper diam.
-            </p>
-          </div>
-        </div>
-      </div>
       
+      <div>
+      <div
+        class="block rounded-lg bg-white shadow-lg bg-gradient-to-r from-teal-700 to-sky-600 text-white hover:bg-gradient-to-r hover:from-slate-800 hover:to-sky-600">
+        <div class="h-24 overflow-hidden rounded-t-lg bg-[#262d51]"></div>
+        <div
+          class="mx-auto -mt-12 w-32 h-32 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
+          <img
+            src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"/>
+        </div>
+        <div class="p-6">
+          <h4 class="mb-4 text-2xl font-semibold">Lisa Curdow</h4>
+          <hr />
+          <p class="mt-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="inline-block h-7 w-7 pr-2"
+              viewBox="0 0 24 24">
+              <path
+                d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z" />
+            </svg>
+            Neque cupiditate assumenda in maiores repudi mollitia
+            architecto.
+          </p>
+        </div>
+      </div>
+    </div>
 
       
       

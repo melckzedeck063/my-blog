@@ -14,9 +14,6 @@ export default function Home() {
     <div>
         <Testimonials />
     </div>
-    <div className="">
-        <Footer />
-    </div>
   </div>
   )
 }

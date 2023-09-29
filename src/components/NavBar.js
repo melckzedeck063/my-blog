@@ -19,7 +19,7 @@ export function StickyNavbar() {
   }, []);
  
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 max-w-full">
       <Typography
         as="li"
         variant="small"
@@ -64,13 +64,13 @@ export function StickyNavbar() {
   );
  
   return (
-    <div className="-mm-6 max-h-[768px] w-[calc(100%+48px)] overflow-scroll  bg-gradient-to-r from-slate-800 viaa-cyan-500 to-sky-700">
+    <div className="-mm-6 max-h-[768px] w-full overflow-hidden  bg-gradient-to-r from-slate-800 viaa-cyan-500 to-sky-700">
       <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4 bg-gradient-to-r from-slate-800 viaa-cyan-500 to-sky-700">
         <div className="flex items-center justify-between text-slate-200" >
           <Typography
             as="a"
             href="/"
-            className="mr-4 cursor-pointer py-1.5 font-medium"
+            className="mr-4 cursor-pointer py-1.5 font-medium text-2xl"
           >
             Melckzedeck
           </Typography>
