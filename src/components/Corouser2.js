@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export default function Corouser({corouser1}) {
+export default function Corouser2({corouser1}) {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const images = [
@@ -28,7 +28,7 @@ export default function Corouser({corouser1}) {
       data-te-ride="carousel"
     >
       {/* Carousel items */}
-      <div className="relative w-full h-69 overflow-hidden">
+      <div className="relative w-full h-70 overflow-hidden">
         {corouser1.map((image, index) => (
           <div
             key={index}
