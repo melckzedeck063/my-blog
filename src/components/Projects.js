@@ -32,7 +32,7 @@ export default function Projects() {
 
   return (
     <div className='h-full bg-gradient-to-r from-sky-900 viaa-cyan-500 to-teal-600 w-full'>
-        <div class="container py-24 mx-auto md:px-6 px-3">
+        <div class="container py-24 mx-auto md:px-6 xsm:px-3 sm:px-3">
   {/* <!-- Section: Design Block --> */}
   <section class="mb-32">
     <h2 class="mb-16 text-center text-3xl font-bold text-[hsl(218,81%,95%)]">My Projects</h2>
@@ -44,7 +44,7 @@ export default function Projects() {
         </p>
 
     <div class="mb-16 flex flex-wrap">
-      <div class="mb-6 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-7/12 lg:pr-6 xl:w-7/12 xl:pr-6">
+      <div class="mb-6 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-7/12 lg:pr-6 xl:w-7/12">
         <div
           class="ripple relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
           data-te-ripple-init data-te-ripple-color="light">
@@ -58,7 +58,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pl-6 xl:w-5/12 xl:pl-6">
+      <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pl-6">
         <h3 class="mb-4 text-2xl font-bold text-[hsl(218,81%,75%)]">Pharmacy Management System</h3>
         
         <p class="mb-6 text-neutral-500 dark:text-neutral-300">
@@ -76,7 +76,7 @@ export default function Projects() {
 
    
     <div class="mb-16 flex flex-wrap lg:flex-row-reverse xl:flex-row-reverse">
-      <div class="mb-6 xsm:w-full shrink-0 grow-0 basis-auto lg:mb-0 w-4/12 sm:w-7/12 md:w-6/12  xl:pl-6 lg:pl-6">
+      <div class="mb-6 xsm:w-full shrink-0 grow-0 basis-auto lg:mb-0 w-4/12 sm:w-7/12 md:w-6/12 ">
         <div
           class="ripple relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
           data-te-ripple-init data-te-ripple-color="light">
