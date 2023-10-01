@@ -10,7 +10,7 @@ export default function Testimonials() {
   <section class="mbb-32 text-center">
     <h2 class="mb-12 text-3xl font-bold text-[hsl(174,97%,74%)]">Testimonials</h2>
 
-    <div class="grid gap-x-6 gap-y-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-12">
+    <div class="grid gap-x-6 gap-y-3 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 xl:gap-x-10">
 
     <div>
       <div

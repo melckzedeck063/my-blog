@@ -28,7 +28,7 @@ export default function Corouser2({corouser1}) {
       data-te-ride="carousel"
     >
       {/* Carousel items */}
-      <div className="relative w-full h-70 overflow-hidden">
+      <div className="relative w-full h-70 xsm:h-72 overflow-hidden">
         {corouser1.map((image, index) => (
           <div
             key={index}
@@ -44,7 +44,7 @@ export default function Corouser2({corouser1}) {
 
       {/* Carousel controls - prev item */}
       <button
-        className="absolute bottom-0 left-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-blue-700 opacity-50 transition-opacity duration-150 ease-in-out hover:text-blue-700 hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+        className="absolute bottom-0 left-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-blue-700 opacity-50 transition-opacity duration-150 ease-in-out hover:text-blue-700 hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
         type="button"
         data-te-target="#carouselExampleIndicators"
         onClick={handlePrev}
@@ -54,7 +54,7 @@ export default function Corouser2({corouser1}) {
 
       {/* Carousel controls - next item */}
       <button
-        className="absolute bottom-0 right-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-blue-700 opacity-50 transition-opacity duration-150 ease-in-out hover:text-blue-700 hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+        className="absolute bottom-0 right-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-blue-700 opacity-50 transition-opacity duration-150 ease-in-out hover:text-blue-700 hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
         type="button"
         data-te-target="#carouselExampleIndicators"
         onClick={handleNext}

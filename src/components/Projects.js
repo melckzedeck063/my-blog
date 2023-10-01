@@ -44,7 +44,7 @@ export default function Projects() {
         </p>
 
     <div class="mb-16 flex flex-wrap">
-      <div class="mb-6 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-8/12 lg:pr-6">
+      <div class="mb-6 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-7/12 lg:pr-6 xl:w-7/12 xl:pr-6">
         <div
           class="ripple relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
           data-te-ripple-init data-te-ripple-color="light">
@@ -58,7 +58,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <div class="w-full shrink-0 grow-0 basis-auto lg:w-4/12 lg:pl-6">
+      <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pl-6 xl:w-5/12 xl:pl-6">
         <h3 class="mb-4 text-2xl font-bold text-[hsl(218,81%,75%)]">Pharmacy Management System</h3>
         
         <p class="mb-6 text-neutral-500 dark:text-neutral-300">
@@ -75,8 +75,8 @@ export default function Projects() {
     </div>
 
    
-    <div class="mb-16 flex flex-wrap lg:flex-row-reverse">
-      <div class="mb-6 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-3/12 pxx-6 lg:pl-6">
+    <div class="mb-16 flex flex-wrap lg:flex-row-reverse xl:flex-row-reverse">
+      <div class="mb-6 xsm:w-full shrink-0 grow-0 basis-auto lg:mb-0 w-4/12 sm:w-7/12 md:w-6/12  xl:pl-6 lg:pl-6">
         <div
           class="ripple relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
           data-te-ripple-init data-te-ripple-color="light">
@@ -90,7 +90,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <div class="w-full shrink-0 grow-0 basis-auto lg:w-9/12 lg:pr-6">
+      <div class="w-full shrink-0 grow-0 basis-auto lg:w-8/12 xl:w-8/12 lg:pr-6 xl:pr-6">
         <h3 class="mb-4 text-2xl font-bold text-[hsl(218,81%,75%)]">Instant Food App</h3>
         
         <p class="text-neutral-500 dark:text-neutral-300 mb-6">
@@ -108,7 +108,7 @@ export default function Projects() {
     </div>
 
     <div class="mb-16 flex flex-wrap">
-      <div class="mb-6 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-3/12 lg:pr-6">
+      <div class="mb-6 xsm:w-full shrink-0 grow-0 basis-auto lg:mb-0 w-4/12 sm:w-7/12 md:w-6/12 lg:pr-6">
         <div
           class="ripple relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
           data-te-ripple-init data-te-ripple-color="light">
@@ -122,7 +122,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <div class="w-full shrink-0 grow-0 basis-auto lg:w-8/12 lg:pl-6">
+      <div class="w-full shrink-0 grow-0 basis-auto lg:w-8/12 lg:pl-6 xl:w-8/12 xl:pl-6">
         <h3 class="mb-4 text-2xl font-bold text-[hsl(218,81%,75%)]">Nyumba Kiganjani App</h3>
         
         <p class="mb-6 text-neutral-500 dark:text-neutral-300">
@@ -138,13 +138,13 @@ export default function Projects() {
       </div>
     </div>
 
-    <div class="mb-16 flex flex-wrap lg:flex-row-reverse">
-      <div class="mb-6 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-7/12 pxx-6 lg:pl-6">
+    <div class="mb-16 flex flex-wrap lg:flex-row-reverse xl:flex-row-reverse 2xl:flex-row-reverse">
+      <div class="mb-6 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-7/12 xl:w-7/12 2xl:w-7/12 pxx-6 lg:pl-6">
         <div
           class="ripple relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
           data-te-ripple-init data-te-ripple-color="light">
           {/* <img src={web1} class="w-full" alt="Louvre" />  */}
-          <Corouser2 corouser1={project2} />
+          <Corouser corouser1={project2} />
           <a href="#!">
             <div
               class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
@@ -153,7 +153,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
+      <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6 xl:w-5/12 xl:pr-6">
         <h3 class="mb-4 text-2xl font-bold text-[hsl(218,81%,75%)]">Mobile App UI Design</h3>
         
         <p class="text-neutral-500 dark:text-neutral-300 mb-6">

@@ -19,7 +19,7 @@ export function StickyNavbar() {
   }, []);
  
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 max-w-full">
+    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 xl:mt-0 lg:flex-row  lg:items-center lg:gap-6  max-w-full">
       <Typography
         as="li"
         variant="small"
@@ -75,7 +75,7 @@ export function StickyNavbar() {
             Melckzedeck
           </Typography>
           <div className="flex items-center gap-4">
-            <div className="mr-4 hidden lg:block">{navList}</div>
+            <div className="mr-4 hidden lg:block xl:block">{navList}</div>
             <Button
               variant="gradient"
               size="sm"
@@ -85,7 +85,7 @@ export function StickyNavbar() {
             </Button>
             <IconButton
               variant="text"
-              className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+              className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden xl:hidden 2xl:hidden"
               ripple={false}
               onClick={() => setOpenNav(!openNav)}
             >
