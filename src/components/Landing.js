@@ -17,7 +17,7 @@ export default function Landing() {
           </h1>
 
           <p class="text-neutral-500 dark:text-neutral-300 mb-8">
-          Junior Software Developer from Dodoma Tanzania with 
+          Software Developer from Dodoma Tanzania with 
         excellent skills in designing and building web and 
        mobile application with cutting-edge technologies
         </p>
